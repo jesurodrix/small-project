@@ -1,0 +1,17 @@
+.contenedor {
+    background-color: aqua;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+
+
+img {
+    width: 30%;
+    border-radius: 50%;
+    display: inline;
+}

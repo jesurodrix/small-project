@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+}
+
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(40, 149, 192);
+    background-image: url("https://proingra.com/wp-content/uploads/2023/05/18-MAYO-BRAHMAN-I.jpg");
+    background-size: cover;
+    display: flex;
+    height: auto;
+}
+
+.header__text {
+    margin: auto;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    max-width: 900px;
+}
+
+h1 {
+    margin: 0;
+    color: aliceblue;
+    margin-top: 250px;
+    text-wrap: balance;
+    font-size: 5.9em;
+}
+
+ul {
+    padding: 0%;
+}
+
+p {
+    text-wrap: wrap;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.nav__item {
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.nav_lista {
+    list-style: none;
+    margin: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: background-color 0.2s, border-radius 0.2s;
+    color: rgb(40, 149, 192);
+}
+
+.nav__img {
+    width: 100px;
+}
+
+.nav__link:hover {
+    background-color: rgb(40, 149, 192);
+    border-radius: 50px;
+    color: aliceblue;
+    transition: background-color 0.2s, border-radius 0.2s;
+}
+
+.nav__logo, .nav__ul {
+    flex-grow: 1;
+}
+
+.nav__ul {
+    flex-wrap: wrap;
+}
+
+.tex__header {
+    font-size: 20px;
+}
+
