@@ -1,0 +1,170 @@
+@import './colors.css';
+
+body {
+    margin: 0%;
+    padding: 0;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left__container {
+    background-color: var( --slate-grey);
+    color: var(--charcoal);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.right__container {
+    width: 70%;
+    height: 100%;
+}
+
+.right-container__message {
+    margin: 10px;
+}
+
+.bar__container {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.position {
+    background-color: var(--slate-grey);
+    position: sticky;
+    top: 0%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    margin-bottom: 17px;
+}
+
+.bar {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 4px solid var(--forest-green);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.msj:hover {
+    background-color: var(--moss-green);
+    cursor: pointer;
+}
+
+.msj {
+    padding: 0 10px;
+    transition: background-color .09s;
+    display: flex;
+    color: #fff;
+}
+
+h1 {
+    color: var(--off-white);
+    margin: 10px;
+}
+
+img {
+    max-width: 50px;
+    height: 80%;
+    border-radius: 50%;
+    margin: 7px 0 0 0;
+}
+
+.cell {
+    width: 100%;
+    background-color: var(--olive-green);
+    box-shadow: 2px 3px 27px -10px rgba(0, 0, 0, 0.664);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.right-container__message {
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 10px;
+    background-color: var(--deep-teal);
+    color: #fff;
+}
+
+.message2 {
+    background-color: var(--moss-green);
+    border-radius: 3px 3px 10px 3px;
+    text-align: end;
+}
+
+.mensaje {
+    margin-left: 7px;
+}
+
+.mm1 {
+    display: flex;
+    margin-top: 3px;
+}
+
+.mm2 {
+    display: flex;
+    justify-content: end;
+}
+
+.conteiner {
+    width: 100%;
+    height: 10%;
+    background-color: var(--charcoal);
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido {
+    height: 90%;
+}
+
+.men {
+    outline: none;
+    border: none;
+    height: 60%;
+    margin-top: 14px;
+    width: 80%;
+}
+
+.material-icons {
+    font-size: 30px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
+
+.aa {
+    margin-right: 19px;
+}
+
+.lamin {
+    width: 50px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.name-perfil {
+    display: flex;
+    justify-items: end;
+}
