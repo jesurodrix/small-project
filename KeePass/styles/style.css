@@ -1,0 +1,125 @@
+@import url("/KeePass/styles/colors.css");
+
+body {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #e0eeef;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    margin-top: 100px;
+    display: flex;
+    max-width: 600px;
+    min-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 0 27px rgba(20, 20, 20, 0.616);
+    min-height: 370px;
+}
+
+
+.form {
+    background-color: #dbd7d7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 20px;
+    border-radius: 12px 0 0 12px;
+}
+
+.inputs {
+    width: 100%;
+}
+
+
+input, button {
+    width: 100%;
+    margin: 0 0 12px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;  
+}
+
+button {
+    cursor: pointer;
+}
+.others-logins {
+    text-align: center;
+}
+
+.a-login {
+    margin: 0 3px;
+}
+
+.facebook, .google {
+    width: 10%;
+}
+
+.facebook-container, .google-container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--forest-green)
+}
+
+.h1 {
+    color: #fff ;
+}
+
+.bottom {
+    margin-top: 30px;
+    text-transform: uppercase;
+    background-color: var(--forest-green);
+    color: #fff;
+}
+
+.information-conteiner {
+    width: 50%;
+    padding: 0 20px;
+    background-color: var(--forest-green);
+    border-radius: 0 12px 12px 0;
+}
+
+.p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.87);
+}
+
+.register {
+    text-align: center;
+}
+
+.a-register {
+    padding: 7px 9px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #dbd7d7;
+    transition: border-radius .1s, background-color .1s;
+    font-size: 20px;
+}
+
+.a-register:hover {
+    background-color: #dbd7d7;
+    color: var(--forest-green);
+    border-radius: 12px;
+    transition: border-radius .1s, background-color .1s;
+}
+
+.description {
+    font-size: 25px;
+    color: #e9e6e6;
+}
+
