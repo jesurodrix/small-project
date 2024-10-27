@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #e0eeef;
+    background-color: var(--light-olive);
 }
 
 * {
