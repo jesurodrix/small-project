@@ -3,7 +3,7 @@ html {
 }
 
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 * {
@@ -13,7 +13,6 @@ html {
 body {
     margin: 0%;
     padding: 0%;
-    background-color: #fff;
 }
 
 
@@ -50,8 +49,9 @@ a:hover {
     color: #a50044;
 }
 
+
 .log-in {
-    border: 2px solid #fff;
+    border: 2.5px solid #fff;
     border-radius: 20px;      
 }
 
@@ -60,14 +60,78 @@ a:hover {
     color: #004d98;
 } 
 
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
 
 h1 {
     text-align: center;
     color: #004d98;
-    font-size: 5.5rem;
-    padding: 50px 0 0 0;
+    font-size: 4.5rem;
+    margin-top: 100px;
+    padding: 5px;
 }
 
 .color-text {
     color: #a50044;
+}
+
+.sobre-mi {
+    border-radius: 10px;
+    max-width: 50vw;
+    margin: auto;
+    box-shadow: 0 0 10px #00000077;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.h2-sobre-mi {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.sobre-mi-box {
+    text-wrap: balance;
+    max-width: 90%;
+    margin: auto;
+}
+
+.p-sobre-mi {
+    padding: 9px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container-historia {
+    background-color: #004d98;
+    padding: 30px;
+}
+
+.historia {
+    border-radius: 10px;
+    max-width: 50vw;
+    margin: auto;
+    box-shadow: 0 0 10px #0000006b;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.h2-historia {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.historia-box {
+    text-wrap: balance;
+    max-width: 90%;
+    margin: auto;
+}
+
+.p-historia {
+    padding: 9px;
+    text-align: center;
+    font-size: 1.2rem;
 }
