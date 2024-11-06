@@ -69,7 +69,7 @@ a:hover {
 h1 {
     text-align: center;
     color: #004d98;
-    font-size: 4.5rem;
+    font-size: clamp(1.5rem, 3.5rem, 4.5rem);
     margin-top: 100px;
     padding: 5px;
 }
@@ -80,7 +80,8 @@ h1 {
 
 .sobre-mi {
     border-radius: 10px;
-    max-width: 50vw;
+    max-width: 80vw;
+    min-height: 50px;
     margin: auto;
     box-shadow: 0 0 10px #00000077;
     padding: 10px;
@@ -112,7 +113,7 @@ h1 {
 
 .historia {
     border-radius: 10px;
-    max-width: 50vw;
+    max-width: 80vw;
     margin: auto;
     box-shadow: 0 0 10px #0000006b;
     padding: 10px;
