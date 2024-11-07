@@ -8,6 +8,7 @@ html {
 
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -108,7 +109,10 @@ h1 {
 
 .container-historia {
     background-color: #004d98;
-    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .historia {
@@ -116,7 +120,6 @@ h1 {
     max-width: 80vw;
     margin: auto;
     box-shadow: 0 0 10px #0000006b;
-    padding: 10px;
     background-color: #fff;
 }
 
@@ -135,4 +138,54 @@ h1 {
     padding: 9px;
     text-align: center;
     font-size: 1.2rem;
+}
+
+.container-jugadores-background {
+    background-color: #a50044;
+    padding: 10px;
+}
+
+.container-player {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.player-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+}
+
+.player-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.player-info {
+    padding: 20px;
+}
+
+.player-card h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.player-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.player-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
