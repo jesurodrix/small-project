@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: var(--light-olive);
+    background-color: #fff;
 }
 
 * {
@@ -70,7 +70,7 @@ button {
 
 h1 {
     text-align: center;
-    color: var(--forest-green)
+    color: #a50044;
 }
 
 .h1 {
@@ -80,21 +80,20 @@ h1 {
 .bottom {
     margin-top: 30px;
     text-transform: uppercase;
-    background-color: var(--forest-green);
+    background-color: #a50044;
     color: #fff;
 }
 
 .information-conteiner {
     width: 50%;
     padding: 0 20px;
-    background-color: var(--forest-green);
+    background-color: #004d98;
     border-radius: 0 12px 12px 0;
 }
 
 .p {
     text-align: center;
-    color: #fff;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.87);
+    color: #a50044;
 }
 
 .register {
@@ -102,8 +101,7 @@ h1 {
 }
 
 .a-register {
-    padding: 7px 9px;
-    border-radius: 30px;
+    padding: 10px 9px;
     text-decoration: none;
     color: #dbd7d7;
     transition: border-radius .1s, background-color .1s;
@@ -113,8 +111,8 @@ h1 {
 .a-register:hover {
     margin-top: 16px;
     background-color: #dbd7d7;
-    color: var(--forest-green);
-    border-radius: 12px;
+    color: #004d98;
+    border-radius: 20px;
     transition: border-radius .1s, background-color .1s;
 }
 
