@@ -121,6 +121,8 @@ h1 {
     margin: auto;
     box-shadow: 0 0 10px #0000006b;
     background-color: #fff;
+    max-height: 80vh;
+    overflow: auto;
 }
 
 .h2-historia {
@@ -138,8 +140,6 @@ h1 {
     padding: 9px;
     text-align: center;
     font-size: 1.2rem;
-    height: 80vh;
-    overflow: auto;
 }
 
 .container-jugadores-background {
